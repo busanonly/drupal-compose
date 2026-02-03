@@ -1,1 +1,10 @@
+version: "3.8"
 
+services:
+  drupal:
+    build: .
+    container_name: drupal
+    ports:
+      - "8080:80"
+    volumes:
+      - ./html:/var/www/html
