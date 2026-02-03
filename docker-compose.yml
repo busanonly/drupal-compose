@@ -5,6 +5,6 @@ services:
     build: .
     container_name: drupal
     ports:
-      - "8080:80"
+      - "8082:80"
     volumes:
       - ./html:/var/www/html
